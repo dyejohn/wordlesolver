@@ -2,6 +2,7 @@
 
 // initialize the functionality class
 using WordleHelper;
+using WordleSolverCoreFunctionality;
 
 
 List<string> wordList = new List<string>();

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WordleHelper
+namespace WordleSolverCoreFunctionality
 {
-    internal class KnownLetter
+    public class KnownLetter
     {
         public Char Letter { get; set; }
 
