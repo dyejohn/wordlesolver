@@ -264,7 +264,7 @@ while(!endApplication)
 
         ScoredWord scoreWord(string word)
         {
-            var returnValue = 15;
+            var returnValue = 30;
 
             var findDuplicates = new HashSet<char>();
 
@@ -277,7 +277,7 @@ while(!endApplication)
             }
 
             // also decrease for duplicate letters.
-            returnValue -= (5 - findDuplicates.Count);
+            returnValue -= ((5 - findDuplicates.Count)*2);
 
             return new ScoredWord() {  Score = returnValue, Word = word };
         }
